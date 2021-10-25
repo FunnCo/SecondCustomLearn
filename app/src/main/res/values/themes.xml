@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SecondCustomLearn" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="customColor" format="color"/>
+        <attr name="customStyle" format="enum">
+            <enum name="fill" value="0"/>
+            <enum name="stroke" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BarProgressHorizontal">
+        <attr name="customRectColor" format="color"/>
+        <attr name="customRectStyle" format="enum">
+            <enum name="fill" value="0"/>
+            <enum name="stroke" value="0"/>
+        </attr>
+        <attr name="customBackgroundColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CoffeeProgress">
+        <attr name="progressColor" format="color"/>
+        <attr name="stepsCount" format="integer"/>
+    </declare-styleable>
+
+</resources>
